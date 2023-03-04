@@ -1,0 +1,9 @@
+Hello, Yi,Xiongsheng
+The following is the summary of your submissions:
+MAE of GIVEN 5 : 0.891959484806803
+MAE of GIVEN 10 : 0.805833333333333
+MAE of GIVEN 20 : 0.774380245008199
+OVERALL MAE : 0.82071909374487
+
+You have already submitted 3 times.
+GOOD LUCK!
