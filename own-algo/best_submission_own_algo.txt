@@ -1,0 +1,5 @@
+The following is the summary of your submissions:
+MAE of GIVEN 5 : 0.787670376391147
+MAE of GIVEN 10 : 0.7385
+MAE of GIVEN 20 : 0.724606925822321
+OVERALL MAE : 0.748727630930882
