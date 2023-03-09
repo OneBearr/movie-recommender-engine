@@ -48,7 +48,7 @@ def predict(movie_id, new_user_id):    # calculate the predicted rating by simil
 
 form_table()
 
-f1 = open("own-algo/own_algo_result5.txt", "w")       # predictions for result5.txt
+f1 = open("own-algo/best_own_algo_result5.txt", "w")       # predictions for result5.txt
 for new_user in range(201,301):
     for movie_id in range(1, 1001):
         if dataArr[new_user][movie_id] == -1:
@@ -57,7 +57,7 @@ for new_user in range(201,301):
 f1.close()
 print('Result5 Prediction Done')
 
-f2 = open("own-algo/own_algo_result10.txt", "w")      # predictions for result10.txt
+f2 = open("own-algo/best_own_algo_result10.txt", "w")      # predictions for result10.txt
 for new_user in range(301,401):
     for movie_id in range(1, 1001):
         if dataArr[new_user][movie_id] == -1:
@@ -66,7 +66,7 @@ for new_user in range(301,401):
 f2.close()
 print('Result10 Prediction Done')
 
-f3 = open("own-algo/own_algo_result20.txt", "w")      # predictions for result20.txt
+f3 = open("own-algo/best_own_algo_result20.txt", "w")      # predictions for result20.txt
 for new_user in range(401,501):
     for movie_id in range(1, 1001):
         if dataArr[new_user][movie_id] == -1:
